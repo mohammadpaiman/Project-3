@@ -1,4 +1,3 @@
-# Project-3
 import json
 import csv
 import requests
@@ -170,6 +169,7 @@ def main():
     saveTransaction()
 
 #  UNIT TESTS 
+
 def test_decrementInventory():
     """Test decrementInventory reduces quantity."""
     test_inv = {"A1": {"item": "TestItem", "quantity": 1, "price_usd": 1.0}}
